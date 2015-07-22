@@ -71,6 +71,6 @@ fi
 sudo -u ${USER} ./key-gen.sh
 
 # 作成キーのコピーと名称変更
-cp /home/yp-study/.ssh/id_rsa /tmp/`uname -n`.pub
-chmod 660 /tmp/`uname -n`.pub
-chown ${USER}:${GROUP} /tmp/`uname -n`.pub
+cp /home/yp-study/.ssh/id_rsa /tmp/`uname -n`.pem
+chmod 660 /tmp/`uname -n`.pem
+chown ${USER}:${GROUP} /tmp/`uname -n`.pem
