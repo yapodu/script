@@ -5,7 +5,7 @@
 
 USER="ypadmin"
 GROUP="yapodu"
-PASSWORD="YPSP@ssw0rd"
+PASSWORD="Ch@ngeme!"
 DATE=`date +%Y%m%d%H%M`
 USER_DIR=~${USER}
 CREATE_LOG=create-ypadmin.sh.log
